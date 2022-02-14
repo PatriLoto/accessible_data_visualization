@@ -52,11 +52,30 @@ install.packages(mis_paquetes, repos = "http://cran.rstudio.com")
 
 In order to successfully install the packages, you need to be connected to the Internet.
 
-## :writing_hand: Slides y Código
+### A brief outline of the tutorial\*\*\*\*
+
+This is a 2-hour short course, in which the following topics will be covered:
+
+| **Time (in minutes)** | **TOPICS**                                                                                                       |
+|-----------------------|------------------------------------------------------------------------------------------------------------------|
+| 15                    | **Presentation of the tutorial** (lecturers, main topics, working method)                                        |
+| 25                    | **Axis 1 - Effective plots in R with ggplot2:**                                                                  |
+|                       | \- Qualities of a good visualization. Practical examples.                                                        |
+|                       | \- Good data visualization practices to generate effective plots with ggplot2 and plotly. Practical examples.    |
+| 5                     | **Break 1**                                                                                                      |
+| 25                    | **Axis 2 - Accessibility in data visualization:**                                                                |
+|                       | \- Principles of accessibility and accessible design                                                             |
+|                       | \- Accessible design applied to static and interactive graphics in R with ggplot2 and plotly. Practical examples |
+| 5                     | **Break 2**                                                                                                      |
+| 30                    | **Axis 3: Guided practice**                                                                                      |
+| 10                    | **Final questions**                                                                                              |
+| 5                     | **Survey and closing**                                                                                           |
+
+## :writing_hand: Slides and Code
 
 Tanto la [presentación](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material/PRESENTACION_WIDS2020.pdf) como los [archivos rmarkdown](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material) se encuentran en la carpeta **Material**.
 
-## :notebook: **Bibliografía**
+## :notebook: **Bibliography**
 
 Para la elaboración tanto del material teórico como de los ejercicios prácticos se utilizaron como referencia, los libros descriptos a continuación:
 
