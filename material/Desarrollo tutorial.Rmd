@@ -1,0 +1,118 @@
+---
+title: "Planificación de Tutorial: Visualización de datos efectivos y accesibles"
+author: "Patricia Loto y Andrea Gomez Vargas"
+output: html_document
+---
+
+
+## Agenda
+
+Este es un curso corto de 2 horas, en el cual se desarrollarán los siguientes ejes:
+
+
+|Tiempo (en minutos) | Temática | 
+|:---:|:------|:------|
+|15 | Presentación del tutorial |
+|25 | Eje 1: Gráficos efectivos en R con ggplot2 y plotly  |
+|5  | Break 1 |
+|25 | Eje 2: Accesibilidad en la visualización de datos |
+|5  | Break 2|
+|3  | Práctica guiada |
+|10 | Preguntas finales |
+|5  | Encuesta y cierre|
+
+
+
+## Desarrollo de ejes
+
+
+## *Eje 1 Gráficos efectivos en R con ggplot2 y plotly*
+ 
+ 
+¿Para qué visualizamos? ¿Para qué aprendemos visualización? 
+
+
+Para aprender cómo usar/transmitir los datos de manera precisa, clara, atractiva, imaginativa, bella y confiable con el objetivo de informar al público, a nuestro público. Alberto Cairo, escritor del libro The Truthful Art.
+
+Las cinco cualidades de grandes visualizaciones (también del libro The Truthful Art  de Alberto Cairo):
+- Que sea agradable a la vista
+- Que sea funcional
+- Que muestre hallazgos
+- Que está basada en datos confiables, es decir, que transmita la verdad 
+ 
+## *Eje 2 Accesibilidad en la visualización de datos*
+ 
+Breve introducción sobre accesibilidad digital y por qué es importante su uso.
+
+### Principios de accesibilidad y diseño accesible.
+
+Entonces, ¿qué y a quién debemos tener en cuenta al crear tablas o gráficos?
+Si bien es importante tener en cuenta los diferentes perfiles de accesibilidad al momento de crear productos digitales, las discapacidades o diversidades visuales son las más relevantes cuando consideramos la visualización de datos.
+
+El diseño es más que color, forma o fuente: es una herramienta poderosa que media en nuestra relación con el mundo. El diseño inclusivo es eso, más potencial: el potencial de unir culturas heterogéneas en un entendimiento compartido. Hacer que los productos y las experiencias sean accesibles a nivel mundial. Para conectarnos.
+ 
+Los diseños verdaderamente inclusivos nunca están realmente terminados, y adquirir fluidez en el diseño inclusivo requiere más que una lista de verificación. Sin embargo, todos necesitamos un mapa cuando comenzamos a explorar cualquier mundo nuevo: deje que esta lista de ideas lo inspire y oriente a usted y a su equipo a medida que comienza su viaje hacia el diseño inclusivo.
+
+
+### Pautas básicas para hacer más accesibles las visualizaciones de datos.
+
+Lo siguiente es cierto para cualquier visualización de datos, pero es especialmente importante cuando se enfoca en la accesibilidad. Un concepto conciso y coherente garantiza que los usuarios de todos los niveles puedan interactuar con su visualización. Deje los números a un lado por un momento y hágase estas preguntas:
+
+*¿Qué historia cuentan los datos?*
+
+Esto le ayuda a decidir en qué aspecto(s) enfocarse. Imagine un gráfico que muestre la población de 10 ciudades importantes. Si su objetivo es comparar San Francisco y Nueva York, deje que la historia brille. Esto significa que la población de Chicago no es tan relevante y puede optar por minimizarla. Del mismo modo, si tiene un conjunto de datos particularmente complejo, puede dividirlo en partes más pequeñas y simples.
+
+
+*¿Cómo debería beneficiarse el lector de la visualización?*
+
+Considere cómo su gráfico ayudará al usuario a comprender las perspectivas de los datos. Como en el ejemplo anterior, capa en contexto para sacar esos aprendizajes a la superficie.
+
+
+*¿Puedes entenderlo en 5 segundos?*
+
+Si lo visual agrega más complejidad que su palabra escrita, piense si lo necesita en primer lugar.
+
+### Anatomía de un gráfico accesible
+
+
+El siguiente ejemplo es un gráfico al que se puede acceder por derecho propio: no se basa en una tabla para comunicar los datos a quienes usan tecnologías de asistencia.
+Ejemplo de un gráfico con una descripción clara y concisa que permite a las personas no videntes acceder al contenido. 
+
+#### Pautas de diseño a tener en cuenta (desglosemos el diseño):
+
+- *Título:* Asigne a la visualización un título descriptivo que ilustre la idea principal.
+Bien: “Mi consumo de helados en comparación con la media nacional”
+Genial: “Un gráfico titulado: Mi consumo anual de helado ha superado el promedio nacional desde 2010. Desde los años 2000 a 2010, los niveles de consumo anual de helado míos y del estadounidense promedio son similares. Alrededor de 2010, mi nivel de consumo se dispara mucho más y se mantiene así hasta el día de hoy. El resumen de los datos es el siguiente…”
+
+
+- *Resumen:* en el texto, resuma en palabras humanas reales la historia que la información busca transmitir. Este texto solo se puede descubrir mediante tecnología de asistencia. Si además es visible en pantalla sin esas herramientas, mejor aún.
+Pregúntese: ¿Cómo describiría el gráfico y sus ideas a un amigo? Mejor aún, pídale a un amigo que lo analice y resuma lo que encuentre.
+Etiquetas de eje (cuando corresponda): etiquete cada eje y sus marcas. Esto debe ser visible para el usuario y accesible a través de tecnología de asistencia.
+
+
+- *Etiquetas de datos:* etiquete cada punto de datos directamente (use una línea de conexión, si es necesario) en lugar de usar una clave codificada por colores separada. Los usuarios que no pueden distinguir ciertos colores aún podrán interpretar los datos.
+Tenga en cuenta lo siguiente durante la implementación:
+
+- *Texto alternativo:* asegúrese de que su elemento visual tenga un texto alternativo descriptivo.
+Mal: “ice_cream_conquisition_chart”
+Genial: "El gráfico que muestra mi consumo anual de helado es mucho mayor que el promedio nacional"
+Formato SVG: si puede hacer un esfuerzo adicional, cree el gráfico utilizando SVG en lugar de una imagen HTML básica. Brinda una mejor experiencia a quienes usan lectores de pantalla, ya que permite el acceso a los elementos individuales dentro del gráfico. Lea más sobre gráficos SVG.
+
+
+### *Mejores prácticas visuales*
+
+Para ayudar a las personas usuarias daltónicas: 
+
+- Seguí las pautas de contraste de color. Ejemplo
+- Etiqueta los puntos de datos directamente. Ejemplo
+- Separa los elementos con espacios en blanco o patrón. Ejemplo
+
+
+
+Para apoyar a las personas usuarias la tecnología de asistencia:
+
+- Evite herramientas complejas. Ejemplo
+- Evite las superposiciones de desplazamiento. Ejemplo
+- Generar ejemplo similares de cada punto: 
+
+
