@@ -1,6 +1,6 @@
 # useR! 2022 - The R User Conference Online
 
-\#\# Effective and Accessible Dataviz Workshop
+## Effective and Accessible Dataviz Workshop
 
 ![presentacion](https://raw.githubusercontent.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/master/presentacion_curso.png)
 
