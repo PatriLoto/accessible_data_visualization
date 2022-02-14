@@ -77,7 +77,7 @@ Tanto la [presentación](https://github.com/PatriLoto/viz-datos-con-ggplot2-para
 
 ## :notebook: **Bibliography**
 
-Para la elaboración tanto del material teórico como de los ejercicios prácticos se utilizaron como referencia, los libros descriptos a continuación:
+For the elaboration of both the theoretical material and the practical exercises, the books described below were used as reference:
 
 -   [R para Ciencia de Datos](https://es.r4ds.hadley.nz/) de Hadley Wickham - [Capítulo 3: Visualización de datos](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html) y [Capítulo 28: Comunicar con gráficos](https://es.r4ds.hadley.nz/comunicar-con-gr%C3%A1ficos.html).
 
@@ -107,7 +107,7 @@ En el presente curso trabajaremos con el paquete ggplot2, pero existen otros paq
 
 Espero te sean de utilidad.
 
-### :books: Libros para profundizar en la visualización de datos.
+### :books: Books to delve into data visualization.
 
 -   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) de [Hadley Wickham](@hadleywickham).
 
@@ -115,42 +115,13 @@ Espero te sean de utilidad.
 
 -   [Graphical Data Analysis with R](http://www.gradaanwr.net/content/) de Antony Unwin.
 
-### Sitios Webs.
+### Webs.
 
 -   [The R graph Gallery](https://www.r-graph-gallery.com/)
 -   [Highcharter](http://jkunst.com/highcharter/)
 -   [From Data to Viz](https://www.data-to-viz.com/)
 -   [RStudio Education](https://rstudio.cloud/learn/primers/3)
 
-### Tutoriales.
 
--   [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) por [Cédric Scherer](@CedScherer)
 
--   [The Grammar and Graphics of Data Science](https://rstudio.com/resources/additional-talks/the-grammar-and-graphics-of-data-science/) por Rstudio.
 
--   [Tutorial interactivo de gráficos con el paquete learnr](https://github.com/yabellini/tutorialgRaficosFN) por Yanina Bellini Saibene
-
-### Presentaciones en español.
-
--   [Taller Introductorio a ggplot2](https://gabysandovalm.github.io/RLadiesChile_intro_ggplot/Presentacion_introggplot2#1) por [Gaby Sandoval](@GabySandovalM) para R-Ladies Santiago.
--   [Visualización de datos espaciales](https://sporella.github.io/datos_espaciales_presentacion/#1) por [Steph Orellana Bello](@sporella) para R-Ladies Santiago.
-
-### Presentaciones en inglés.
-
--   [Take A Sad Plot & Make It Better](https://alison.netlify.app/uo-sad-plot-better/#1) por [Alison Presmanes Hill](@apreshill)
--   [Plot Twist: 10 Bake Offs, Visualized 11 Ways](https://alison.netlify.app/rls-plot-twist/#1) por [Alison Presmanes Hill](@apreshill)
--   [Data Visualization in the Tidyverse](https://alison.netlify.app/uo-tidy-bakeoff/#1) por [Alison Presmanes Hill](@apreshill)
--   [Data Visualisation in R](https://satrdayjoburg.djnavarro.net/slides) por [Danielle Navarro](@djnavarro)
--   [Robust-tools: data visualization](https://robust-tools.djnavarro.net/visualisation/) por [Danielle Navarro](@djnavarro)
-
-### Talleres/Videos.
-
--   [Charlar con R - Toma 5 \| Visualizaciones y datos textuales para R-Ladies Bs-As.](https://www.youtube.com/watch?v=WXp1T9JEIRM) por [María Nanton](@bynans1)
--   [Drawing Anything with ggplot2](https://github.com/thomasp85/ggplot2_workshop) por Thomas Lin Pedersen.
--   [ggplot2 workshop part 1](https://www.youtube.com/watch?v=h29g21z0a68) por Thomas Lin Pedersen.
--   [ggplot2 workshop part 2](https://www.youtube.com/watch?v=0m4yywqNPVY) por Thomas Lin Pedersen.
-
-### Para enseñar visualización de datos.
-
--   ["Let them eat cake (first)!"](https://github.com/mine-cetinkaya-rundel/eatcake) por [Mine Cetinkaya-Rundel](http://mine-cr.com)
--   [Incorporating visualization into statistics education](https://github.com/mine-cetinkaya-rundel/2016-03-04-viz-forum/blob/master/2016-03-04-viz-forum.pdf) por [Mine Cetinkaya-Rundel](http://mine-cr.com)
