@@ -8,7 +8,7 @@
 
 ## Date
 
-:spiral_calendar: June 23, 2022 :alarm_clock: 2 hours :hotel: Online
+:spiral_calendar: June 2022 :alarm_clock: 2 hours :hotel: Online
 
 :earth_americas: [More information about useR! 2022](https://user2022.r-project.org/)
 
@@ -79,15 +79,15 @@ Tanto la [presentación](https://github.com/PatriLoto/viz-datos-con-ggplot2-para
 
 For the elaboration of both the theoretical material and the practical exercises, the books described below were used as reference:
 
--   [R para Ciencia de Datos](https://es.r4ds.hadley.nz/) de Hadley Wickham - [Capítulo 3: Visualización de datos](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html) y [Capítulo 28: Comunicar con gráficos](https://es.r4ds.hadley.nz/comunicar-con-gr%C3%A1ficos.html).
+-   [R for Data Science](https://es.r4ds.hadley.nz/) de Hadley Wickham - [Chapter 3](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html) y [Chapter 28](https://es.r4ds.hadley.nz/comunicar-con-gr%C3%A1ficos.html).
 
--   [R Graphics Cookbook: Practical Recipes for Visualizing Data](http://www.cookbook-r.com/Graphs/) de Winston Chang - [Capítulo 1: Bar and line graphs](http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/).
+-   [R Graphics Cookbook: Practical Recipes for Visualizing Data](http://www.cookbook-r.com/Graphs/) de Winston Chang - [Chapter 1 graphs](http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/).
 
 -   [A Data Visualization: a practical introduction](http://socviz.co/) de [Kieran Healy](@kjhealy).
 
 -   [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/) de [Claus Wilke](@ClausWilke).
 
-# **Material y Recursos Extras**
+# **Packages**
 
 ### :package: Paquetes
 
