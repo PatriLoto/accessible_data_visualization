@@ -73,7 +73,7 @@ This is a 2-hour short course, in which the following topics will be covered:
 
 ## :writing_hand: Slides and Code
 
-Tanto la [presentación](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material/PRESENTACION_WIDS2020.pdf) como los [archivos rmarkdown](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material) se encuentran en la carpeta **Material**.
+Both the [presentation]() like the [rmarkdown files](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material) they are located in the **Material** folder.
 
 ## :notebook: **Bibliography**
 
@@ -87,17 +87,13 @@ For the elaboration of both the theoretical material and the practical exercises
 
 -   [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/) de [Claus Wilke](@ClausWilke).
 
-# **Packages**
-
-### :package: Paquetes
-
-En el presente curso trabajaremos con el paquete ggplot2, pero existen otros paquetes que puedes explorar:
+## :package: **Packages**
 
 -   [patchwork](https://github.com/thomasp85/patchwork)/[cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html): tienen la misma finalidad, permiten combinar dos o más gráficos.
 
 -   [paletteer](https://github.com/EmilHvitfeldt/paletteer): agrupa una gran colección de paletas de colores.
 
--   [plotly](https://plot.ly/r/)/[highcharter](http://jkunst.com/highcharter/index.html): ambos permiten realizar gráficos interactivos.
+-   [plotly](https://plot.ly/r/): ambos permiten realizar gráficos interactivos.
 
 -   [gganimate](https://github.com/thomasp85/gganimate): permite agregarle animación a los gráficos hechos con ggplot2.
 
@@ -109,11 +105,11 @@ Espero te sean de utilidad.
 
 ### :books: Books to delve into data visualization.
 
--   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) de [Hadley Wickham](@hadleywickham).
+-   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by [Hadley Wickham](@hadleywickham).
 
--   [Data Visualization with R](https://rkabacoff.github.io/datavis/) de Rob Kabacoff - [Capítulo 12: Interactive Graphs](https://rkabacoff.github.io/datavis/Interactive.html) y [Capítulo 13: Advice / Best Practices](https://rkabacoff.github.io/datavis/Advice.html).
+-   [Data Visualization with R](https://rkabacoff.github.io/datavis/) by Rob Kabacoff - [Capítulo 12: Interactive Graphs](https://rkabacoff.github.io/datavis/Interactive.html) and [Capítulo 13: Advice / Best Practices](https://rkabacoff.github.io/datavis/Advice.html).
 
--   [Graphical Data Analysis with R](http://www.gradaanwr.net/content/) de Antony Unwin.
+-   [Graphical Data Analysis with R](http://www.gradaanwr.net/content/) by Antony Unwin.
 
 ### Webs.
 
@@ -121,7 +117,3 @@ Espero te sean de utilidad.
 -   [Highcharter](http://jkunst.com/highcharter/)
 -   [From Data to Viz](https://www.data-to-viz.com/)
 -   [RStudio Education](https://rstudio.cloud/learn/primers/3)
-
-
-
-
