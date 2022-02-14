@@ -89,19 +89,18 @@ For the elaboration of both the theoretical material and the practical exercises
 
 ## :package: **Packages**
 
--   [patchwork](https://github.com/thomasp85/patchwork)/[cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html): tienen la misma finalidad, permiten combinar dos o más gráficos.
+-   [patchwork](https://github.com/thomasp85/patchwork)/[cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html).
 
--   [paletteer](https://github.com/EmilHvitfeldt/paletteer): agrupa una gran colección de paletas de colores.
+-   [paletteer](https://github.com/EmilHvitfeldt/paletteer).
 
--   [plotly](https://plot.ly/r/): ambos permiten realizar gráficos interactivos.
+-   [plotly](https://plot.ly/r/).
 
--   [gganimate](https://github.com/thomasp85/gganimate): permite agregarle animación a los gráficos hechos con ggplot2.
+-   [gganimate](https://github.com/thomasp85/gganimate).
 
--   [esquisse](https://github.com/dreamRs/esquisse): facilita la exploración y visualización de datos.
+-   [esquisse](https://github.com/dreamRs/esquisse).
 
--   [ggtext](https://github.com/wilkelab/ggtext): permite extender las funcionalidades de ggplot2, mediante la customización de títulos, subtítulos, anotaciones, etc.
+-   [ggtext](https://github.com/wilkelab/ggtext).
 
-Espero te sean de utilidad.
 
 ### :books: Books to delve into data visualization.
 
