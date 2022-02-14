@@ -22,57 +22,35 @@ Degree in Information Systems, Diploma in Data Science, Machine Learning and its
 
 Sociologist with orientation in Gender Studies and Human Rights. Currently I work as a Population Statistics Analyst at the National Institute of Statistics and Census in Argentina, and I am a university professor in feminist theory and data science. I have also participated in collaborative learning spaces in data science from the communities of R users in Argentina since 2019, and I am part of the organizing team of R-ladies Buenos Aires and LatinR. Professional website: <https://soyandrea.netlify.app/>
 
-### **Abstract** 
-There is a current demand for visualizations in data science that are understandable and can be accessed by a greater number of people. From this demand, the idea of this tutorial arises, which aims to be a brief learning guide to implement good practices of data visualization in R with a focus on accessibility.
-We will start talking about the main best practices to make charts effective and reach the target audience and we will work with examples that will allow learners to understand the value of applying them. 
-Regarding the accessibility axis, we will give a brief introduction about digital accessibility, and the principles of accessible design. We will teach with practical exercises in R how to apply these principles to data visualization in both static and dynamic graphs, using the ggplot2 and plotly libraries.
- 
+### **Abstract**
 
-### ¿Este curso es para mí?
+There is a current demand for visualizations in data science that are understandable and can be accessed by a greater number of people. From this demand, the idea of this tutorial arises, which aims to be a brief learning guide to implement good practices of data visualization in R with a focus on accessibility. We will start talking about the main best practices to make charts effective and reach the target audience and we will work with examples that will allow learners to understand the value of applying them. Regarding the accessibility axis, we will give a brief introduction about digital accessibility, and the principles of accessible design. We will teach with practical exercises in R how to apply these principles to data visualization in both static and dynamic graphs, using the ggplot2 and plotly libraries.
 
-1.  Tienes conocimientos básicos del lenguaje R o Python y quieres aprender especificamente sobre visualización de datos.
-2.  Quieres conocer cúales son los componentes visuales de un gráfico.
-3.  Quieres entender los principios básicos de la Grámatica de gráficos en capas y cómo son implementadas en ggplot2.
-4.  Quieres conocer cuáles son los gráficos más comúnmente utilizados y cómo desarrollarlos con ggplot2.
+### **Intended audience and prerequisites:**
 
-## :computer: Antes del workshop
+**Is this course for me?**
 
-Gracias por inscribirte a este workshop, en el mismo trabajaremos con la versión más reciente de R y Rstudio, por lo que, para aprovecharlo deberás traer una pc portátil con lo siguiente instalado:
+1.  You have initial knowledge of the R language and the ggplot2 and plotly packages, you make data visualizations with ggplot2 or Plotly and want to learn specifically about how to make your visualizations effective.
+2.  You want to learn the basic principles of accessible design and how to implement them in your graphics.
+3.  You want to learn what are best practices for visualizing data and making it accessible to more people.
 
-### Instalación de R and RStudio
+**Prerequisites:**
 
--   Una versión reciente de **R (\>=3.6.2)** disponible de manera gratuita para su descarga en [CRAN](https://cran.r-project.org/).
+**Before the tutorial.** To participate in this tutorial you need to have the latest version of R and Rstudio, here are the latest installation references: A recent version of R (\>=4.1.0) available for free download from CRAN. A recent version of Rstudio Desktop (\>= 2021.09.2+382) available for free download from Rstudio. In both cases, please note which Operating System you are using and the version of it (32-bit or 64-bit) to download the correct version of both R and Rstudio.
 
--   Una versión reciente de **Rstudio Desktop (\>=1.2.5033)** disponible de manera gratuita para su descarga en [Rstudio](https://www.rstudio.com/download).
-
-En ambos casos, ten en cuenta cuál es el Sistema Operativo que utilizas y la versión del mismo (32 o 64 bits) para descargar la versión correcta tanto de R como de Rstudio.
-
--   Los paquetes que utilizaremos pueden instalarse, abriendo Rstudio y ejecutando las siguientes sentencias:
+The packages we will use can be installed by opening Rstudio and executing the following statements:
 
 ``` r
-mis_paquetes <- c("tidyverse", "gapminder","babynames","survey","socviz","here","cowplot", 
-                  "patchwork", "ggrepel","ggridges","ggforce", "gridExtra","extrafont",
+mis_paquetes <- c("tidyverse", "gapminder","babynames","survey","here","cowplot", 
+                  "patchwork", "ggrepel","ggridges","ggforce", "ggtext","gridExtra","extrafont",
                   "scales","wesanderson","viridis", "viridisLite","prismatic","fishualize",
-                  "RColorBrewer","ggthemes","hrbrthemes","plotly","highcharter","GGally","sf",
-                  "maps", "mapdata","mapproj","rnaturalearth","devtools")
+                  "RColorBrewer","ggthemes","hrbrthemes","plotly","GGally","sf",
+                  "maps", "mapdata","devtools")
 
 install.packages(mis_paquetes, repos = "http://cran.rstudio.com")
-remotes::install_github("clauswilke/ggtext")
 ```
 
-Para poder instalar de manera exitosa los paquetes, es necesario que estés conectado a Internet.
-
-### ¿Cómo verifico que los paquetes se instalaron correctamente?
-
-Para verificar que los paquetes se cargaron correctamente, por favor ejecutá las sentencias que están a continuación:
-
-``` r
-easypackages::libraries("tidyverse", "gapminder","babynames","survey","socviz","here","cowplot", 
-                        "patchwork", "ggrepel","ggridges","ggforce", "gridExtra","extrafont",
-                        "scales","wesanderson","viridis", "viridisLite","prismatic","fishualize",
-                        "RColorBrewer", "ggtext","ggthemes","hrbrthemes","plotly","highcharter","GGally",
-                        "sf","maps", "mapdata","mapproj","rnaturalearth","devtools")
-```
+In order to successfully install the packages, you need to be connected to the Internet.
 
 ## :writing_hand: Slides y Código
 
