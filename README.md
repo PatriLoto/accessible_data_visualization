@@ -6,11 +6,11 @@
 
 ------------------------------------------------------------------------
 
-## Fecha y Lugar
+## Date
 
 :spiral_calendar: June 23, 2022 :alarm_clock: 2 hours :hotel: Online
 
-:earth_americas: [Más información sobre useR! 2022](https://user2022.r-project.org/)
+:earth_americas: [More information about useR! 2022](https://user2022.r-project.org/)
 
 ### **A brief biography of the instructors**
 
