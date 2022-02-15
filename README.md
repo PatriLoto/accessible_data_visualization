@@ -69,9 +69,9 @@ This is a 2-hour short course, in which the following topics will be covered:
 | 10                    | **Final questions**                                                                                              |
 | 5                     | **Survey and closing**                                                                                           |
 
-## :writing_hand: Slides and Code
+## :writing_hand: Planing
 
-Both the [presentation]() like the [rmarkdown files](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material) they are located in the **Material** folder.
+The planning of this tutorial is in process and is located in the [**Material**](https://github.com/PatriLoto/accessible_data_visualization/tree/master/material) folder (English and Spanish). 
 
 ## :notebook: **Bibliography**
 

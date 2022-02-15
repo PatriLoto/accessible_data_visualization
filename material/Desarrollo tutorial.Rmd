@@ -40,6 +40,8 @@ Este es un curso corto de 2 horas, en el cual se desarrollarán los siguientes e
 
 
 Según Alberto Cairo, autor del libro The Truthful Art, lo hacemos para expresar y transmitir el significado de los datos de manera precisa, clara, atractiva, imaginativa, bella y confiable con el objetivo de informar al público, a nuestro público. Para ello, es importante tener en cuenta las cinco cualidades de una gran visualización:
+
+
 - Que sea agradable a la vista
 - Que sea funcional
 - Que muestre hallazgos
@@ -65,12 +67,12 @@ Lo siguiente es cierto para cualquier visualización de datos, pero es especialm
 
 *¿Qué historia cuentan los datos?*
 
-Esto le ayuda a decidir en qué aspecto(s) enfocarse. Imagine un gráfico que muestre la población de 10 ciudades importantes. Si su objetivo es comparar San Francisco y Nueva York, deje que la historia brille. Esto significa que la población de Chicago no es tan relevante y puede optar por minimizarla. Del mismo modo, si tiene un conjunto de datos particularmente complejo, puede dividirlo en partes más pequeñas y simples.
+Esto le ayuda a decidir en qué aspecto(s) enfocarse. 
 
 
 *¿Cómo debería beneficiarse el lector de la visualización?*
 
-Considere cómo su gráfico ayudará al usuario a comprender las perspectivas de los datos. Como en el ejemplo anterior, capa en contexto para sacar esos aprendizajes a la superficie.
+Considere cómo su gráfico ayudará al usuario a comprender las perspectivas de los datos. 
 
 
 *¿Puedes entenderlo en 5 segundos?*
@@ -119,8 +121,7 @@ Para ayudar a las personas usuarias daltónicas:
 - Seguí las pautas de contraste de color.
 
 
-```{r, fig.alt = "figura con dos visualizaciones, una con buen contraste y otra con un contraste deficiente", out.width = "50%"}
-
+```{r, echo=FALSE, fig.alt = "figura con dos visualizaciones, una con buen contraste y otra con un contraste deficiente", out.width = "50%"}
 knitr::include_graphics("fig/ejemplo1.png")
 ```
 
