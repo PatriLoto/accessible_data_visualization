@@ -119,7 +119,7 @@ Para ayudar a las personas usuarias daltónicas:
 - Seguí las pautas de contraste de color.
 
 
-```{r, fig.alt = "sumar descripción", out.width = "50%"}
+```{r, fig.alt = "figura con dos visualizaciones, una con buen contraste y otra con un contraste deficiente", out.width = "50%"}
 
 knitr::include_graphics("fig/ejemplo1.png")
 ```
