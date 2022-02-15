@@ -81,7 +81,7 @@ Si lo visual agrega más complejidad que las palabras escritas, pensemos si lo n
 
 Análicemos el siguiente ejemplo de gráfico
 
-```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "200%"}
+```{r, echo=FALSE, fig.alt = "grafico con las cualidades de una buena visualización", out.width = "200%"}
 knitr::include_graphics("fig/anatomia.png")
 ```
 
