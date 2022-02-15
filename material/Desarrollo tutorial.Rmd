@@ -130,7 +130,7 @@ knitr::include_graphics("fig/ejemplo1.png")
 
 
 
-```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+```{r, echo=FALSE, fig.alt = "Figura con un ejeplo donde se etiquetan los puntos para mejorar la legibilidad", out.width = "50%"}
 knitr::include_graphics("fig/ejemplo2.png")
 ```
 
