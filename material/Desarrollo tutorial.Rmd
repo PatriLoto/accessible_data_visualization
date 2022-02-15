@@ -157,7 +157,7 @@ knitr::include_graphics("fig/ejemplo4.png")
 
 
 
-```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+```{r, echo=FALSE, fig.alt = "Figura con un ejemplo donde se muestra un gráfico de barras con etiquetas correctas", out.width = "50%"}
 knitr::include_graphics("fig/ejemplo5.png")
 ```
 
