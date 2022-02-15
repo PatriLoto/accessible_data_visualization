@@ -8,7 +8,7 @@
 
 ## Date
 
-:spiral_calendar: June 23, 2022 :alarm_clock: 2 hours :hotel: Online
+:spiral_calendar: June 2022 :alarm_clock: 2 hours :hotel: Online
 
 :earth_americas: [More information about useR! 2022](https://user2022.r-project.org/)
 
@@ -73,84 +73,46 @@ This is a 2-hour short course, in which the following topics will be covered:
 
 ## :writing_hand: Slides and Code
 
-Tanto la [presentación](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material/PRESENTACION_WIDS2020.pdf) como los [archivos rmarkdown](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material) se encuentran en la carpeta **Material**.
+Both the [presentation]() like the [rmarkdown files](https://github.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/blob/master/material) they are located in the **Material** folder.
 
 ## :notebook: **Bibliography**
 
-Para la elaboración tanto del material teórico como de los ejercicios prácticos se utilizaron como referencia, los libros descriptos a continuación:
+For the elaboration of both the theoretical material and the practical exercises, the books described below were used as reference:
 
--   [R para Ciencia de Datos](https://es.r4ds.hadley.nz/) de Hadley Wickham - [Capítulo 3: Visualización de datos](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html) y [Capítulo 28: Comunicar con gráficos](https://es.r4ds.hadley.nz/comunicar-con-gr%C3%A1ficos.html).
+-   [R for Data Science](https://es.r4ds.hadley.nz/) de Hadley Wickham - [Chapter 3](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html) y [Chapter 28](https://es.r4ds.hadley.nz/comunicar-con-gr%C3%A1ficos.html).
 
--   [R Graphics Cookbook: Practical Recipes for Visualizing Data](http://www.cookbook-r.com/Graphs/) de Winston Chang - [Capítulo 1: Bar and line graphs](http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/).
+-   [R Graphics Cookbook: Practical Recipes for Visualizing Data](http://www.cookbook-r.com/Graphs/) de Winston Chang - [Chapter 1 graphs](http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/).
 
 -   [A Data Visualization: a practical introduction](http://socviz.co/) de [Kieran Healy](@kjhealy).
 
 -   [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/) de [Claus Wilke](@ClausWilke).
 
-# **Material y Recursos Extras**
+## :package: **Packages**
 
-### :package: Paquetes
+-   [patchwork](https://github.com/thomasp85/patchwork)/[cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html).
 
-En el presente curso trabajaremos con el paquete ggplot2, pero existen otros paquetes que puedes explorar:
+-   [paletteer](https://github.com/EmilHvitfeldt/paletteer).
 
--   [patchwork](https://github.com/thomasp85/patchwork)/[cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html): tienen la misma finalidad, permiten combinar dos o más gráficos.
+-   [plotly](https://plot.ly/r/).
 
--   [paletteer](https://github.com/EmilHvitfeldt/paletteer): agrupa una gran colección de paletas de colores.
+-   [gganimate](https://github.com/thomasp85/gganimate).
 
--   [plotly](https://plot.ly/r/)/[highcharter](http://jkunst.com/highcharter/index.html): ambos permiten realizar gráficos interactivos.
+-   [esquisse](https://github.com/dreamRs/esquisse).
 
--   [gganimate](https://github.com/thomasp85/gganimate): permite agregarle animación a los gráficos hechos con ggplot2.
+-   [ggtext](https://github.com/wilkelab/ggtext).
 
--   [esquisse](https://github.com/dreamRs/esquisse): facilita la exploración y visualización de datos.
 
--   [ggtext](https://github.com/wilkelab/ggtext): permite extender las funcionalidades de ggplot2, mediante la customización de títulos, subtítulos, anotaciones, etc.
+### :books: Books to delve into data visualization.
 
-Espero te sean de utilidad.
+-   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by [Hadley Wickham](@hadleywickham).
 
-### :books: Libros para profundizar en la visualización de datos.
+-   [Data Visualization with R](https://rkabacoff.github.io/datavis/) by Rob Kabacoff - [Capítulo 12: Interactive Graphs](https://rkabacoff.github.io/datavis/Interactive.html) and [Capítulo 13: Advice / Best Practices](https://rkabacoff.github.io/datavis/Advice.html).
 
--   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) de [Hadley Wickham](@hadleywickham).
+-   [Graphical Data Analysis with R](http://www.gradaanwr.net/content/) by Antony Unwin.
 
--   [Data Visualization with R](https://rkabacoff.github.io/datavis/) de Rob Kabacoff - [Capítulo 12: Interactive Graphs](https://rkabacoff.github.io/datavis/Interactive.html) y [Capítulo 13: Advice / Best Practices](https://rkabacoff.github.io/datavis/Advice.html).
-
--   [Graphical Data Analysis with R](http://www.gradaanwr.net/content/) de Antony Unwin.
-
-### Sitios Webs.
+### Webs.
 
 -   [The R graph Gallery](https://www.r-graph-gallery.com/)
 -   [Highcharter](http://jkunst.com/highcharter/)
 -   [From Data to Viz](https://www.data-to-viz.com/)
 -   [RStudio Education](https://rstudio.cloud/learn/primers/3)
-
-### Tutoriales.
-
--   [A ggplot2 Tutorial for Beautiful Plotting in R](https://cedricscherer.netlify.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) por [Cédric Scherer](@CedScherer)
-
--   [The Grammar and Graphics of Data Science](https://rstudio.com/resources/additional-talks/the-grammar-and-graphics-of-data-science/) por Rstudio.
-
--   [Tutorial interactivo de gráficos con el paquete learnr](https://github.com/yabellini/tutorialgRaficosFN) por Yanina Bellini Saibene
-
-### Presentaciones en español.
-
--   [Taller Introductorio a ggplot2](https://gabysandovalm.github.io/RLadiesChile_intro_ggplot/Presentacion_introggplot2#1) por [Gaby Sandoval](@GabySandovalM) para R-Ladies Santiago.
--   [Visualización de datos espaciales](https://sporella.github.io/datos_espaciales_presentacion/#1) por [Steph Orellana Bello](@sporella) para R-Ladies Santiago.
-
-### Presentaciones en inglés.
-
--   [Take A Sad Plot & Make It Better](https://alison.netlify.app/uo-sad-plot-better/#1) por [Alison Presmanes Hill](@apreshill)
--   [Plot Twist: 10 Bake Offs, Visualized 11 Ways](https://alison.netlify.app/rls-plot-twist/#1) por [Alison Presmanes Hill](@apreshill)
--   [Data Visualization in the Tidyverse](https://alison.netlify.app/uo-tidy-bakeoff/#1) por [Alison Presmanes Hill](@apreshill)
--   [Data Visualisation in R](https://satrdayjoburg.djnavarro.net/slides) por [Danielle Navarro](@djnavarro)
--   [Robust-tools: data visualization](https://robust-tools.djnavarro.net/visualisation/) por [Danielle Navarro](@djnavarro)
-
-### Talleres/Videos.
-
--   [Charlar con R - Toma 5 \| Visualizaciones y datos textuales para R-Ladies Bs-As.](https://www.youtube.com/watch?v=WXp1T9JEIRM) por [María Nanton](@bynans1)
--   [Drawing Anything with ggplot2](https://github.com/thomasp85/ggplot2_workshop) por Thomas Lin Pedersen.
--   [ggplot2 workshop part 1](https://www.youtube.com/watch?v=h29g21z0a68) por Thomas Lin Pedersen.
--   [ggplot2 workshop part 2](https://www.youtube.com/watch?v=0m4yywqNPVY) por Thomas Lin Pedersen.
-
-### Para enseñar visualización de datos.
-
--   ["Let them eat cake (first)!"](https://github.com/mine-cetinkaya-rundel/eatcake) por [Mine Cetinkaya-Rundel](http://mine-cr.com)
--   [Incorporating visualization into statistics education](https://github.com/mine-cetinkaya-rundel/2016-03-04-viz-forum/blob/master/2016-03-04-viz-forum.pdf) por [Mine Cetinkaya-Rundel](http://mine-cr.com)
