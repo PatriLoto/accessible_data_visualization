@@ -69,7 +69,7 @@ This is a 2-hour short course, in which the following topics will be covered:
 | 10                    | **Final questions**                                                                                              |
 | 5                     | **Survey and closing**                                                                                           |
 
-## :writing_hand: Planing
+## :writing_hand: Planning
 
 The planning of this tutorial is in process and is located in the [**Material**](https://github.com/PatriLoto/accessible_data_visualization/tree/master/material) folder (English and Spanish). 
 
