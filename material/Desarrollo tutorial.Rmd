@@ -130,7 +130,7 @@ knitr::include_graphics("fig/ejemplo1.png")
 
 
 
-```{r, echo=FALSE, fig.alt = "Figura con un ejeplo donde se etiquetan los puntos para mejorar la legibilidad", out.width = "50%"}
+```{r, echo=FALSE, fig.alt = "Figura con un ejemplo donde se etiquetan los puntos para mejorar la legibilidad del mismo", out.width = "50%"}
 knitr::include_graphics("fig/ejemplo2.png")
 ```
 
@@ -138,7 +138,7 @@ knitr::include_graphics("fig/ejemplo2.png")
 
 
 
-```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+```{r, echo=FALSE, fig.alt = "Figura con un ejemplo donde se muestra como separar los elementos en un grafico de torta", out.width = "50%"}
 knitr::include_graphics("fig/ejemplo3.png")
 ```
 
@@ -148,7 +148,7 @@ Para apoyar a las personas usuarias la tecnología de asistencia:
 - Evite herramientas complejas.
 
 
-```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+```{r, echo=FALSE, fig.alt = "Figura con un ejemplo donde se muestra un gráfico con interacción", out.width = "50%"}
 knitr::include_graphics("fig/ejemplo4.png")
 ```
 
