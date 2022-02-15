@@ -36,12 +36,10 @@ Este es un curso corto de 2 horas, en el cual se desarrollarán los siguientes e
 ## *Eje 1 Gráficos efectivos en R con ggplot2 y plotly*
  
  
-¿Para qué visualizamos? ¿Para qué aprendemos visualización? 
+¿Para qué visualizamos? 
 
 
-Para aprender cómo usar/transmitir los datos de manera precisa, clara, atractiva, imaginativa, bella y confiable con el objetivo de informar al público, a nuestro público. Alberto Cairo, escritor del libro The Truthful Art.
-
-Las cinco cualidades de grandes visualizaciones (también del libro The Truthful Art  de Alberto Cairo):
+Según Alberto Cairo, autor del libro The Truthful Art, lo hacemos para expresar y transmitir el significado de los datos de manera precisa, clara, atractiva, imaginativa, bella y confiable con el objetivo de informar al público, a nuestro público. Para ello, es importante tener en cuenta las cinco cualidades de una gran visualización:
 - Que sea agradable a la vista
 - Que sea funcional
 - Que muestre hallazgos
