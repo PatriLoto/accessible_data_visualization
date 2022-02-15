@@ -9,7 +9,7 @@ output:
       
 ---
 
-This document corresponds to the organization of the tutorial, it contains the distribution of time and topics to be addressed with examples from the bibliography consulted. For the development of the tutorial, examples corresponding to each axis are being prepared to work on them live with the attendees during the day in an Rstudio project. 
+This document corresponds to the organization of the tutorial, it contains the distribution of time and topics to be addressed with examples from the bibliography consulted. For the development of the tutorial, examples corresponding to each axis are being prepared to work on them live with the attendees during the tutorial in an Rstudio project. 
 
 
 ## Program
