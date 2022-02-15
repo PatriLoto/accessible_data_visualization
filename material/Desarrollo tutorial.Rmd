@@ -1,8 +1,15 @@
 ---
-title: "Planificación de Tutorial: Visualización de datos efectivos y accesibles"
+title: "Planificación de tutorial: <br> Visualización de datos efectivos y accesibles"
 author: "Patricia Loto y Andrea Gomez Vargas"
-output: html_document
+output: 
+  html_document:
+      code_download: true
+      toc: true
+      toc_float: true
+      
 ---
+
+Este documento corresponde a la organización del tutorial, contiene la distribución de tiempos y temáticas a abordar de la misma con ejemplos citados de la bibliografía consultada, para el desarrollo del tutorial se están preparando los ejemplos correspondientes a cada eje para trabajarlos durante el desarrollo de la jornada en un proyecto de Rstudio con rmarkdown.
 
 
 ## Agenda
@@ -17,7 +24,7 @@ Este es un curso corto de 2 horas, en el cual se desarrollarán los siguientes e
 |5  | Break 1 |
 |25 | Eje 2: Accesibilidad en la visualización de datos |
 |5  | Break 2|
-|3  | Práctica guiada |
+|30 | Práctica guiada |
 |10 | Preguntas finales |
 |5  | Encuesta y cierre|
 
@@ -70,15 +77,18 @@ Considere cómo su gráfico ayudará al usuario a comprender las perspectivas de
 
 *¿Puedes entenderlo en 5 segundos?*
 
-Si lo visual agrega más complejidad que su palabra escrita, piense si lo necesita en primer lugar.
+Si lo visual agrega más complejidad que las palabras escritas, pensemos si lo necesitamos en primer lugar.
 
 ### Anatomía de un gráfico accesible
 
+Análicemos el siguiente ejemplo de gráfico
 
-El siguiente ejemplo es un gráfico al que se puede acceder por derecho propio: no se basa en una tabla para comunicar los datos a quienes usan tecnologías de asistencia.
-Ejemplo de un gráfico con una descripción clara y concisa que permite a las personas no videntes acceder al contenido. 
+```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "200%"}
+knitr::include_graphics("fig/anatomia.png")
+```
 
-#### Pautas de diseño a tener en cuenta (desglosemos el diseño):
+
+#### Pautas de diseño a tener en cuenta (desglosemos paso a paso):
 
 - *Título:* Asigne a la visualización un título descriptivo que ilustre la idea principal.
 Bien: “Mi consumo de helados en comparación con la media nacional”
@@ -99,20 +109,66 @@ Genial: "El gráfico que muestra mi consumo anual de helado es mucho mayor que e
 Formato SVG: si puede hacer un esfuerzo adicional, cree el gráfico utilizando SVG en lugar de una imagen HTML básica. Brinda una mejor experiencia a quienes usan lectores de pantalla, ya que permite el acceso a los elementos individuales dentro del gráfico. Lea más sobre gráficos SVG.
 
 
+
 ### *Mejores prácticas visuales*
+
+En este apartado visualizaremos ejemplos brindados en el documento [A Comprehensive Guide to Accessible Data Visualization](https://www.betterment.com/design/accessible-data-visualization)
 
 Para ayudar a las personas usuarias daltónicas: 
 
-- Seguí las pautas de contraste de color. Ejemplo
-- Etiqueta los puntos de datos directamente. Ejemplo
-- Separa los elementos con espacios en blanco o patrón. Ejemplo
+- Seguí las pautas de contraste de color.
 
+
+```{r, fig.alt = "sumar descripción", out.width = "50%"}
+
+knitr::include_graphics("fig/ejemplo1.png")
+```
+
+
+
+- Etiqueta los puntos de datos directamente.
+
+
+
+```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+knitr::include_graphics("fig/ejemplo2.png")
+```
+
+- Separa los elementos con espacios en blanco o patrón.
+
+
+
+```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+knitr::include_graphics("fig/ejemplo3.png")
+```
 
 
 Para apoyar a las personas usuarias la tecnología de asistencia:
 
-- Evite herramientas complejas. Ejemplo
-- Evite las superposiciones de desplazamiento. Ejemplo
-- Generar ejemplo similares de cada punto: 
+- Evite herramientas complejas.
+
+
+```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+knitr::include_graphics("fig/ejemplo4.png")
+```
+
+
+- Evite las superposiciones de desplazamiento. 
+
+
+
+```{r, echo=FALSE, fig.alt = "sumar descripción", out.width = "50%"}
+knitr::include_graphics("fig/ejemplo5.png")
+```
+
+
+
+## *Eje 3 Práctica*
+
+Con lo aprendido en los ejes anteriores, en esta sección trabajaremos con una selección de bases datos de Tidy Tuesday,  y con scripts de gráficos gráficos pre-elaborados en ggplot2 y plotly  analizaremos sus características, ventajas y desventajas, y así aplicar funciones que creen visualizaciones efectivas y accesibles. 
+
+
+
+
 
 
