@@ -50,7 +50,7 @@ install.packages(mis_paquetes, repos = "http://cran.rstudio.com")
 
 In order to successfully install the packages, you need to be connected to the Internet.
 
-### A brief outline of the tutorial\*\*\*\*
+### **A brief outline of the tutorial**
 
 This is a 2-hour short course, in which the following topics will be covered:
 
