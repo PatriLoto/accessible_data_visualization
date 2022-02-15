@@ -2,13 +2,11 @@
 
 ## Effective and Accessible Dataviz Workshop
 
-![presentacion](https://raw.githubusercontent.com/PatriLoto/viz-datos-con-ggplot2-para-WIDS2020/master/presentacion_curso.png)
-
 ------------------------------------------------------------------------
 
 ## Date
 
-:spiral_calendar: June 2022 :alarm_clock: 2 hours :hotel: Online
+:alarm_clock: 2 hours :hotel: Online
 
 :earth_americas: [More information about useR! 2022](https://user2022.r-project.org/)
 

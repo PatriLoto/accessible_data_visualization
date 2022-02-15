@@ -30,7 +30,7 @@ Este es un curso corto de 2 horas, en el cual se desarrollarán los siguientes e
 
 
 
-## Desarrollo de ejes
+## Desarrollo de ejes: tópicos y ejemplos
 
 
 ## *Eje 1 Gráficos efectivos en R con ggplot2 y plotly*
@@ -106,7 +106,9 @@ Tenga en cuenta lo siguiente durante la implementación:
 - *Texto alternativo:* asegúrese de que su elemento visual tenga un texto alternativo descriptivo.
 Mal: “ice_cream_conquisition_chart”
 Genial: "El gráfico que muestra mi consumo anual de helado es mucho mayor que el promedio nacional"
-Formato SVG: si puede hacer un esfuerzo adicional, cree el gráfico utilizando SVG en lugar de una imagen HTML básica. Brinda una mejor experiencia a quienes usan lectores de pantalla, ya que permite el acceso a los elementos individuales dentro del gráfico. Lea más sobre gráficos SVG.
+
+
+- *Formato SVG:* si puede hacer un esfuerzo adicional, cree el gráfico utilizando SVG en lugar de una imagen HTML básica. Brinda una mejor experiencia a quienes usan lectores de pantalla, ya que permite el acceso a los elementos individuales dentro del gráfico. Lea más sobre gráficos SVG.
 
 
 
