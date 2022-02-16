@@ -49,7 +49,9 @@ Según Alberto Cairo, autor del libro The Truthful Art, lo hacemos para expresar
  
 ## *Eje 2 Accesibilidad en la visualización de datos*
  
-Breve introducción sobre accesibilidad digital y por qué es importante su uso.
+### Breve introducción sobre accesibilidad digital y por qué es importante su uso.
+
+La accesibilidad (a veces también abreviada como a11y) es la práctica de garantizar que tantas personas como sea posible puedan usar, comprender y tener acceso a una tecnología, infraestructura, herramienta, producto o servicio.
 
 ### Principios de accesibilidad y diseño accesible.
 
