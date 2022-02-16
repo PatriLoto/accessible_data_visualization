@@ -120,17 +120,9 @@ For the elaboration of both the theoretical material and the practical exercises
 -   [ggtext](https://github.com/wilkelab/ggtext).
 
 
-### :books: Books to delve into data visualization.
-
--   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by [Hadley Wickham](@hadleywickham).
-
--   [Data Visualization with R](https://rkabacoff.github.io/datavis/) by Rob Kabacoff - [Capítulo 12: Interactive Graphs](https://rkabacoff.github.io/datavis/Interactive.html) and [Capítulo 13: Advice / Best Practices](https://rkabacoff.github.io/datavis/Advice.html).
-
--   [Graphical Data Analysis with R](http://www.gradaanwr.net/content/) by Antony Unwin.
-
 ### Webs.
-
--   [The R graph Gallery](https://www.r-graph-gallery.com/)
--   [Highcharter](http://jkunst.com/highcharter/)
+-   [Accessible data viz is better data viz](https://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-betterdata-viz)
+-   [Data visualizations and Accessibility](https://accessibility.digital.gov/visual-design/data-visualizations/)
+-   [HIGHCHARTS FOR Accessibility](https://www.highcharts.com/blog/accessibility/)
 -   [From Data to Viz](https://www.data-to-viz.com/)
--   [RStudio Education](https://rstudio.cloud/learn/primers/3)
+-   [The R graph Gallery](https://www.r-graph-gallery.com/)
