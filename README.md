@@ -77,15 +77,25 @@ The planning of this tutorial is in process and is located in the [**Material**]
 
 For the elaboration of both the theoretical material and the practical exercises, the books described below were used as reference:
 
-
-* [An incomplete guide to accessible data visualization](https://towardsdatascience.com/an-incomplete-guide-to-accessible-data-visualization-33f15bfcc400)
-* [Inclusive design](https://automattic.design/inclusive/)
-
 *  [Accessible Visualization: Design Space, Opportunities, and Challenges](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14298)
 
+* [An incomplete guide to accessible data visualization](https://towardsdatascience.com/an-incomplete-guide-to-accessible-data-visualization-33f15bfcc400)
+
+* [DataViz Accessibility]( https://github.com/dataviza11y )
+
+* [Chartability](https://chartability.fizz.studio/)
+
+* [Inclusive design](https://automattic.design/inclusive/)
+
 * [Accessible colors for data visualization](https://zachgrosser.medium.com/accessible-colors-for-data-visualization-2ad64ac4ee7e)
+
 * [A little book of accessibility](https://www.ab11y.com/articles/a-little-book-of-accessibility/)
+
 * [How to design for accessibility](https://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility)
+
+
+* [The accessibility of Highcharts](https://www.highcharts.com/docs/accessibility/accessibility-module)
+
 
 -   [R for Data Science](https://es.r4ds.hadley.nz/) de Hadley Wickham - [Chapter 3](https://es.r4ds.hadley.nz/visualizaci%C3%B3n-de-datos.html) y [Chapter 28](https://es.r4ds.hadley.nz/comunicar-con-gr%C3%A1ficos.html).
 
